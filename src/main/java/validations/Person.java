@@ -10,7 +10,8 @@ class Student extends Human {
     Float quota;
 }
 
-class Human
-{
-   String gender; 
+class Human {
+    //@Required
+    //@OneToMany
+    String gender;
 }
